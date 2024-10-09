@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginStart="100dp"
+        android:text="Hola Mundo"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:background="#F44336"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#E91E63"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="end"
+        android:background="#9C27B0"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:background="#673AB7"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="#2196F3"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical|end"
+        android:background="#00BCD4"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="bottom"
+        android:background="#4CAF50"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="#CDDC39"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="bottom|end"
+        android:background="#FF5722"/>
+</FrameLayout>
